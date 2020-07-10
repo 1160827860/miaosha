@@ -36,7 +36,6 @@ public class MQReceiver {
 			MiaoshaMessage mm  = RedisService.stringToBean(message, MiaoshaMessage.class);
 			User user = mm.getUser();
 			String goodsId = mm.getGoodsId();
-
 			GoodsVo goods = goodsService.getGoodsVoByGoodsId(goodsId);
 	    	int stock = goods.getStockCount();
 	    	if(stock <= 0) {

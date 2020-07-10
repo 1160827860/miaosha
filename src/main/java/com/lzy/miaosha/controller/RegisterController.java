@@ -34,6 +34,30 @@ public class RegisterController {
         if(user != null){
             return Result.error(CodeMsg.ACCOUNT_EXIST);
         }
+
         return Result.success(CodeMsg.SUCCESS);
     }
+
+    public static void main(String[] args) {
+        int[] nums = {3,7,7,7,4,4,4};
+        String a;
+        System.out.println(singleNumber(nums));
+    }
+    static public int singleNumber(int[] nums) {
+        int ans = 0;
+
+        for(int i = 0; i < 32; i++){
+            int count = 0;
+            for(int num : nums){
+                if(((1 << i) & num) > 0){
+                    count++;
+                }
+            }
+            if(count % 3 == 1){
+                ans += (1 << i);
+            }
+        }
+        return ans;
+    }
+
 }

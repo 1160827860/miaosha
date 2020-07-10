@@ -18,10 +18,13 @@ import com.lzy.miaosha.util.BaseValidate;
 import com.lzy.miaosha.vo.GoodsVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigInteger;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -172,6 +175,50 @@ public class MiaoshaController {
         return Result.success(result);
     }
 
+        public static void main(String[] args) {
+            String a = "13534654364565476573534654765";
+            String b ="457658623534658768946547678978";
+
+            //b*a
+            int[][] t = new int[a.length()][b.length() + a.length()];
+            for (int i = 0; i < a.length(); i++) {
+                int jLength = t[0].length - 1 -i;
+                for (int j = b.length() - 1; j >= 0; j--,jLength --) {
+                    int temp = Integer.parseInt(a.charAt(a.length() - 1 - i) + "") * Integer.parseInt(b.charAt(j) + "");
+                    t[i][jLength] += temp % 10;
+                    if (temp > 10 && j > 0) {
+                        t[i][jLength - 1] = temp / 10 % 10;
+                    }
+                }
+            }
+            //49830301552812754113469933452170977 15147889329259278030170
+            //61942512865043976426582245772180978 15147889329259278030170
+            LinkedList<Integer> res = new LinkedList<>();
+            int temp = 0;
+            for (int j = t[0].length - 1; j >= 0; j--) {
+                for (int i = 0; i < a.length(); i++) {
+                    temp+=t[i][j];
+                }
+                res.addFirst(temp % 10);
+                if(temp >= 10){
+                    temp = temp/10;
+                }else {
+                    temp = 0;
+                }
+            }
+            boolean index = true;
+            for (int i = 0; i < res.size(); i++) {
+                if(res.get(i) == 0 && index ){
+                }else {
+                    index = false;
+                    System.out.print(res.get(i));
+                }
+            }
+            System.out.println();
+            BigInteger a1 = new BigInteger("13534654364565476573534654765");
+            BigInteger a2 = new BigInteger("457658623534658768946547678978");
+            System.out.println(a1.multiply(a2).toString());
+        }
+    }
 
 
-}

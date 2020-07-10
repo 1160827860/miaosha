@@ -2,7 +2,7 @@ SET FOREIGN_KEY_CHECKS=0;
 
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
-  `id` int NOT NULL AUTO_INCREMENT COMMENT '用户id，主键',
+  `id` varchar(40)  COMMENT '用户id，主键',
   `phone_number` varchar(15) not null COMMENT '用户手机号',
   `nickname` varchar(255) NOT NULL COMMENT '登录昵称',
   `password` varchar(32) DEFAULT NULL COMMENT 'MD5(MD5(pass明文+固定salt)+salt)',
