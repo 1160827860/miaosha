@@ -21,7 +21,7 @@ public class OrderService {
      * @param goodsId 商品id flowsnow算法所以用String
      * @return 秒杀订单的信息
      */
-    public MiaoshaOrder getMiaoshaOrderByUserIdGoodsId(Integer userId, String goodsId) {
+    public MiaoshaOrder getMiaoshaOrderByUserIdGoodsId(Integer userId, Integer goodsId) {
         return redisService.get(OrderKey.getMiaoshaOrderByUidGid,""+userId+"_"+goodsId, MiaoshaOrder.class);
     }
 }

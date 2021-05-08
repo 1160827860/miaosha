@@ -76,10 +76,4 @@ public class SnowFlakeUtils {
         return System.currentTimeMillis();
     }
 
-    public static void main(String[] args) {
-        SnowFlakeUtils  snowFlake = new SnowFlakeUtils(9, 20);
-        for(int i =0; i <(1<< 4); i++){
-            System.out.println(snowFlake.nextId());
-        }
-    }
 }

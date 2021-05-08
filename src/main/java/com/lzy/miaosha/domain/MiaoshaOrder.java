@@ -5,9 +5,9 @@ package com.lzy.miaosha.domain;
  */
 public class MiaoshaOrder {
     private Long id;
-    private Integer userId;
-    private String goodsId;
-    private Long orderId;
+    private Long userId;
+    private Long goodsId;
+    private String orderId;
 
     public Long getId() {
         return id;
@@ -17,27 +17,27 @@ public class MiaoshaOrder {
         this.id = id;
     }
 
-    public Integer getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 
-    public String getGoodsId() {
+    public Long getGoodsId() {
         return goodsId;
     }
 
-    public void setGoodsId(String goodsId) {
+    public void setGoodsId(Long goodsId) {
         this.goodsId = goodsId;
     }
 
-    public Long getOrderId() {
+    public String getOrderId() {
         return orderId;
     }
 
-    public void setOrderId(Long orderId) {
+    public void setOrderId(String orderId) {
         this.orderId = orderId;
     }
 }

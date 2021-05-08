@@ -2,6 +2,8 @@ package com.lzy.miaosha.vo;
 
 import com.lzy.miaosha.domain.User;
 
+import java.util.List;
+
 /**
  * 保存秒杀商品信息和用户信息的对象，主要还是为了生成订单
  */
@@ -10,6 +12,15 @@ public class GoodsDetailVo {
 	private int remainSeconds = 0;
 	private GoodsVo goods ;
 	private User user;
+	List<AddressVo> addressVos;
+
+	public List<AddressVo> getAddressVos() {
+		return addressVos;
+	}
+
+	public void setAddressVos(List<AddressVo> addressVos) {
+		this.addressVos = addressVos;
+	}
 
 	public int getMiaoshaStatus() {
 		return miaoshaStatus;

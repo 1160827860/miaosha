@@ -1,7 +1,6 @@
 package com.lzy.miaosha.rabbitmq;
 
 import com.lzy.miaosha.redis.RedisService;
-import org.apache.ibatis.annotations.Options;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.AmqpTemplate;

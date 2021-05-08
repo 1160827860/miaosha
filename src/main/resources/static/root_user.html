@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://www.layui.com/demo/layuiAdmin.html -->
+<html xmlns:white-space="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>[object Object]</style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>个人中心</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="./js/root/layui.css" media="all">
+    <script src="./js/root/getjs_bdtj"></script>
+    <script charset="utf-8" src="./js/root/insert_bdtj"></script>
+    <script src="./js/root/hm.js.下载"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script src="js/root/lay/modules/element.js"></script>
+    <script src="js/root/root.js"></script>
+    <link rel="stylesheet" type="text/css" href="chrome-extension://gchnplhcopcpepmiodmlbkhemlacpakm/content/common.css">
+    <link rel="stylesheet" type="text/css" href="chrome-extension://gchnplhcopcpepmiodmlbkhemlacpakm/content/fonts.css"></head>
+<body>
+
+
+<table class="layui-hide" id="test" lay-filter="test"></table>
+
+<script type="text/html" id="toolbarDemo">
+    <div class="layui-btn-container">
+        <button class="layui-btn layui-btn-sm" lay-event="getCheckData">封禁选中的用户</button>
+    </div>
+</script>
+
+<script src="./js/root/layui.js" charset="utf-8"></script>
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+
+    });
+    layui.use('layer', function(){
+        var layer = layui.layer;
+    });
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d214947968792b839fd669a4decaaffc";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    layui.use('table', function(){
+        var table = layui.table;
+        table.render({
+            elem: '#test'
+            ,url:'/root/user'
+            ,toolbar: '#toolbarDemo'
+            ,cols: [[
+                {type:'radio'}
+                ,{field:'id', width:120, title: 'ID', sort: true}
+                ,{field:'phonenumber', minWidth:120, title: '电话'}
+                ,{field:'nickname', width:120, title: '昵称'}
+                ,{field:'registerdate', width:120, title: '注册时间'}
+                ,{field:'lastLoginDate', title: '最后登录时间', width: 120}
+                ,{field:'authority', width:120, title: '权限', sort: true}
+                ,{field:'logincount', width:120, title: '登录次数', sort: true}
+            ]]
+            ,page: true
+        });
+
+        //头工具栏事件
+        table.on('toolbar(test)', function(obj){
+            var checkStatus = table.checkStatus(obj.config.id); //获取选中行状态
+            switch(obj.event){
+                case 'getCheckData':
+                    var data = checkStatus.data;  //获取选中行数据
+                    data = JSON.stringify(data);
+                    $.ajax({
+                        url:"/root/banUser",
+                        type:"POST",
+                        contentType : "application/json",
+                        data: data,
+                        success:function(data){
+                            if(data.code == 0){
+                                layer.msg("封禁成功！");
+                                location.href="root_user.html";
+                            }else{
+                                layer.msg(data.msg);
+                            }
+                        },
+                        error:function(){
+                            layer.msg("客户端请求有误");
+                        }
+                    });
+                    break;
+            };
+        });
+    });
+
+
+
+</script>
+</body>
+</html>

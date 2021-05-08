@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://www.layui.com/demo/layuiAdmin.html -->
+<html xmlns:white-space="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>[object Object]</style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>个人中心</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="./js/root/layui.css" media="all">
+    <script src="./js/root/getjs_bdtj"></script>
+    <script charset="utf-8" src="./js/root/insert_bdtj"></script>
+    <script src="./js/root/hm.js.下载"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script src="js/root/lay/modules/element.js"></script>
+    <script src="js/user/apply.js"></script>
+    <link rel="stylesheet" type="text/css" href="chrome-extension://gchnplhcopcpepmiodmlbkhemlacpakm/content/common.css">
+    <link rel="stylesheet" type="text/css" href="chrome-extension://gchnplhcopcpepmiodmlbkhemlacpakm/content/fonts.css"></head>
+<body>
+<style type="text/css">
+    @media  screen and (max-width: 960px ) {
+        body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+        .login{
+            left:15%;
+            top:30%;
+            z-index:9999;
+            color :black;
+
+        }
+    }
+</style>
+<div class="login">
+    <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+    <legend>上传身份证照片</legend></fieldset>
+    <div style=" padding-left: 30%" >
+        <div class="layui-upload">
+            请上传身份证正面照片
+            <p style=" text-align:left;font-size: 20px;left: 50%">身份证正面照示范：<img src="./img/4080a927ac5306884d70877957e8904801fc96f3.jpg"  style='vertical-align: top;height:220px;width:400px' class="layui-upload-img" ></p><br>
+            <button type="button" class="layui-btn layui-btn-normal" id="test8">选择文件</button>
+            <button type="button" class="layui-btn" id="test9">开始上传</button>
+        </div>
+
+        <div class="layui-upload">
+            请上传身份证背面照片
+            <p style=" text-align:left;font-size: 20px;left: 50%">身份证正面照示范：<img src="./img/a48bc2e8904800fc96abbabdd42043715edb93f3.jpg"  style='vertical-align: top;height:220px;width:400px' class="layui-upload-img" ></p><br>
+            <button type="button" class="layui-btn layui-btn-normal" id="test6">选择文件</button>
+            <button type="button" class="layui-btn" id="test7">开始上传</button>
+        </div>
+    </div>
+</div>
+
+<script src="./js/root/layui.js" charset="utf-8"></script>
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+
+    });
+    layui.use('layer', function(){
+        var layer = layui.layer;
+    });
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d214947968792b839fd669a4decaaffc";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    layui.use('upload', function(){
+        var $ = layui.jquery
+            ,upload = layui.upload;
+        //选完文件后不自动上传
+        upload.render({
+            elem: '#test8'
+            ,url: '/user/update_front' //改成您自己的上传接口
+            ,auto: false
+            //,multiple: true
+            ,bindAction: '#test9'
+            ,done: function(res){
+                layer.msg('上传成功');
+            }
+        });
+        //选完文件后不自动上传
+        upload.render({
+            elem: '#test6'
+            ,url: '/user/update_back' //改成您自己的上传接口
+            ,auto: false
+            //,multiple: true
+            ,bindAction: '#test7'
+            ,done: function(res){
+                layer.msg('上传成功');
+            }
+        });
+    });
+</script>
+</body>
+</html>

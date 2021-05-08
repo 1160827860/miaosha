@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://www.layui.com/demo/layuiAdmin.html -->
+<html xmlns:white-space="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>[object Object]</style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>个人中心</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="./js/root/layui.css" media="all">
+    <script src="./js/root/getjs_bdtj"></script>
+    <script charset="utf-8" src="./js/root/insert_bdtj"></script>
+    <script src="./js/root/hm.js.下载"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script src="js/root/lay/modules/element.js"></script>
+    <script src="js/user/address.js"></script>
+    <link rel="stylesheet" type="text/css" href="chrome-extension://gchnplhcopcpepmiodmlbkhemlacpakm/content/common.css">
+    <link rel="stylesheet" type="text/css" href="chrome-extension://gchnplhcopcpepmiodmlbkhemlacpakm/content/fonts.css"></head>
+<body>
+<style type="text/css">
+    @media  screen and (max-width: 960px ) {
+        body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+        .login{
+            left:15%;
+            top:30%;
+            z-index:9999;
+            color :black;
+
+        }
+    }
+</style>
+<div class="login">
+    <div style=" padding-left: 40%;padding-top: 15%" >
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">姓名</label>
+                <div class="layui-input-inline">
+                    <input type="text" id="name" name="name"  autocomplete="off" placeholder="请输入姓名" class="layui-input"><br>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">电话</label>
+                <div class="layui-input-inline">
+                    <input type="text" id="phone" name="phone"  autocomplete="off" placeholder="请输入收货人电话" class="layui-input"><br>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">收货地址</label>
+            <div class="layui-input-block">
+                <textarea id="address" name="address"  placeholder="请输入收货地址" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button  class="layui-btn"  onclick="addAddress()">立即提交</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/root/layui.js" charset="utf-8"></script>
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+
+    });
+    layui.use('layer', function(){
+        var layer = layui.layer;
+    });
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d214947968792b839fd669a4decaaffc";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>

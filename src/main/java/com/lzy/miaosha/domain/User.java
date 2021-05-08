@@ -16,14 +16,32 @@ public class User {
     private String nickname;
     private String password;
     private String salt;
+    private String head;
     @JsonFormat(pattern = "yyyy-MM-DD")
     private Date registerdate;
     @JsonFormat(pattern = "yyyy-MM-DD")
     private Date lastLoginDate;
+    private String authority;
     /**
      * 登陆次数
      */
     private Integer logincount;
+
+    public String getHead() {
+        return head;
+    }
+
+    public void setHead(String head) {
+        this.head = head;
+    }
+
+    public String getAuthority() {
+        return authority;
+    }
+
+    public void setAuthority(String authority) {
+        this.authority = authority;
+    }
 
     public int getId() {
         return id;

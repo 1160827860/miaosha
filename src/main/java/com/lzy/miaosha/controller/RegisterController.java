@@ -38,11 +38,7 @@ public class RegisterController {
         return Result.success(CodeMsg.SUCCESS);
     }
 
-    public static void main(String[] args) {
-        int[] nums = {3,7,7,7,4,4,4};
-        String a;
-        System.out.println(singleNumber(nums));
-    }
+
     static public int singleNumber(int[] nums) {
         int ans = 0;
 

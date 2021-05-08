@@ -32,7 +32,6 @@ public class Result<T> {
         return new Result<T>(codeMsg);
     }
 
-
     private Result(CodeMsg codeMsg) {
         this.code = codeMsg.getCode();
         this.msg =  codeMsg.getMsg();

@@ -37,7 +37,6 @@
   <div class="panel-heading">秒杀商品详情</div>
   <div class="panel-body">
   	<span id="userTip"> 您还没有登录，请登陆后再操作<br/></span>
-  	<span>没有收货地址的提示。。。</span>
   </div>
   <table class="table" id="goodslist">
   	<tr>  
@@ -78,6 +77,22 @@
         <td>库存数量</td>  
         <td colspan="3"  id="stockCount"></td>  
      </tr>
+      <tr>
+          <td>收货地址</td>
+          <td>
+              <div class="layui-form-item">
+                  <!--<label class="layui-form-label">收货地址</label>-->
+                  <div class="layui-input-block">
+                      <select class="ttt" name="modules" lay-verify="required" lay-search="" id="select">
+                          <option value="">请登录或者添加新的地址</option>
+                      </select>
+                  </div>
+              </div>
+
+          </td>
+
+      </tr>
+
   </table>
 </div>
 </body>
@@ -148,7 +163,8 @@ function doMiaosha(path){
 		url:"/miaosha/"+path+"/do_miaosha",
 		type:"POST",
 		data:{
-			goodsId:$("#goodsId").val()
+			goodsId:$("#goodsId").val(),
+            addressId:document.getElementById("select").value
 		},
 		success:function(data){
 			if(data.code == 0){
@@ -170,9 +186,15 @@ function render(detail){
 	var  remainSeconds = detail.remainSeconds;
 	var goods = detail.goods;
 	var user = detail.user;
+	var address = detail.addressVos;
 	if(user){
 		$("#userTip").text("用户名:"+user.nickname);
 	}
+    for (var i = 0;i<address.length;i++){
+        var a = address[i];
+        var tr = $("<option value="+a.id+">"+"收货人姓名："+a.name+"收货人电话:"+a.phone+"收货人地址:"+a.address+"</option>");
+        $("#select").append(tr);
+    }
 	$("#goodsName").text(goods.goodsName);
 	$("#goodsImg").attr("src", goods.goodsImg);
 	$("#startTime").text(new Date(goods.startDate).format("yyyy-MM-dd hh:mm:ss"));

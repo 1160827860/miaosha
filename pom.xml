@@ -59,6 +59,13 @@
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
         </dependency>
+
+        <!--定时任务和@Slf4j注解日志的依赖-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
         <!--将java对象和字符串互相转换的包-->
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>

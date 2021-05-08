@@ -1,4 +1,5 @@
-$(function () {
+$(
+    function () {
     var tab = 'account_number';
     $('#num').keyup(function (event) {
         $('.tel-warn').addClass('hide');
@@ -111,16 +112,15 @@ $(function () {
 
                 $.ajax({
                     type: "POST",
-                    url: "/user/do_login",
+                    url: "/login/do_login",
                     data: params,
                     success: function (r) {
                         if (r.code == 0) {
-                        	$.ajax({
-                        		type:"POST",
-                        		async:false,
-                        	})
-                            parent.location.href = '/';
-                        } else {
+                                parent.location.href = '/';
+                        }else if (r.code == 120){
+                            parent.location.href = '/root/to_root';
+                        }
+                        else {
                             layer.msg(r.msg);
                         }
                     }
@@ -160,4 +160,5 @@ $(function () {
 
     refreshCode();
 
+        
 });

@@ -4,19 +4,46 @@ package com.lzy.miaosha.domain;
  * 商品信息对应数据库表：goods
  */
 public class Goods {
-    private String id;
+    private Integer id;
     private String goodsName;
     private String goodsTitle;
     private String goodsImg;
     private String goodsDetail;
     private Double goodsPrice;
     private Integer goodsStock;
+    private Integer shopId;
+    private String shopName;
+    private Integer status;
 
-    public String getId() {
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+
+    public Integer getShopId() {
+        return shopId;
+    }
+
+    public void setShopId(Integer shopId) {
+        this.shopId = shopId;
+    }
+
+    public String getShopName() {
+        return shopName;
+    }
+
+    public void setShopName(String shopName) {
+        this.shopName = shopName;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

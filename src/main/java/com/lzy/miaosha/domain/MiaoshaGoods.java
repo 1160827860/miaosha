@@ -1,25 +1,40 @@
 package com.lzy.miaosha.domain;
 
-import java.util.Date;
+
+import java.sql.Date;
 
 public class MiaoshaGoods {
-    private Long id;
-    private Long goodsId;
+    private Integer id;
+    private Integer goodsId;
     private Integer stockCount;
+    private Double miaoshaPrice;
     private Date startDate;
     private Date endDate;
-    public Long getId() {
+
+    public Double getMiaoshaPrice() {
+        return miaoshaPrice;
+    }
+
+    public void setMiaoshaPrice(Double miaoshaPrice) {
+        this.miaoshaPrice = miaoshaPrice;
+    }
+
+    public Integer getId() {
         return id;
     }
-    public void setId(Long id) {
+
+    public void setId(Integer id) {
         this.id = id;
     }
-    public Long getGoodsId() {
+
+    public Integer getGoodsId() {
         return goodsId;
     }
-    public void setGoodsId(Long goodsId) {
+
+    public void setGoodsId(Integer goodsId) {
         this.goodsId = goodsId;
     }
+
     public Integer getStockCount() {
         return stockCount;
     }
