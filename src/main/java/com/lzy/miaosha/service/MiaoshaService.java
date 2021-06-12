@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.sql.Date;
+import java.util.List;
 
 @Service
 public class MiaoshaService {
@@ -133,4 +134,11 @@ public class MiaoshaService {
         return goodsDao.getMiaoshaOrderByOrderId(orderId);
     }
 
+    public List<GoodsVo> getMiaoshaGoodsByUser(Shop shop) {
+        return goodsDao.getMiaoshaGoodsByUser(shop.getId());
+    }
+
+    public void updateMiaoShaGoods(GoodsVo goodsVo) {
+        goodsDao.updateMiaoshaGoods(goodsVo);
+    }
 }

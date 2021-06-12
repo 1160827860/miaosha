@@ -1,0 +1,155 @@
+/*main部分的css样式*/
+
+.main {
+	width: 980px;
+	height: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 220px;
+	/*background-color: green;*/
+	
+}
+
+.focus {
+	float: left;
+	height: 455px;
+	width: 721px;
+	position: relative;
+	background-color: goldenrod;
+}
+.roll_left, .roll_right {
+	position: absolute;
+	top: 50%;
+	width: 25px;
+	height: 30px;
+	background-color: grey;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	opacity: 0.7;
+	color: white;
+}
+.roll_right {
+	right: 0;
+}
+.circle {
+	position: absolute;
+	bottom: 15px;
+	left: 100px;
+}
+.circle li {
+	float: left;
+	width: 8px;
+	height: 8px;
+	border: 2px solid brown;
+	border-radius: 50%;
+	margin: 0 3px;
+	cursor: pointer;
+}
+.current {
+	background-color: #555555;
+}
+
+.newsflash {
+	float: right;
+	height: 455px;
+	width: 250px;
+	/*background-color: burlywood;*/
+	/*border: 1px solid gray;*/
+}
+.news_title {
+	height: 30px;
+	padding: 0 15px;
+	line-height: 30px;
+	border: 1px solid gray;
+}
+.news_title h3{
+	float: left;
+	
+}
+.news_title a {
+	float: right;
+}
+
+.news_content {
+	height: 135px;
+	padding: 5px 15px;
+	border-left:1px solid gray ;
+	border-right:1px solid gray ;
+
+}
+.news_content li {
+	margin: 9px 4px;
+}
+
+.news_second {
+	height: 200px;
+}
+.news_second table {
+	width: 250px;
+	height: 200px;
+	/*border: 1px solid gray;*/
+	border-collapse:collapse;
+	
+}
+.news_second table td {
+	position: relative;
+	text-align: center;
+	border: 1px solid gray;
+}
+.news_second table td i {
+	display: block;
+	margin-left: 20px;
+	width: 25px;
+	height: 25px;
+	background:url(../img/icons.png) no-repeat;
+	background-position:-18px -16px ;
+}
+.news_second .jian {
+	position: absolute;
+	right: 0;
+	top: -2px;
+}
+
+.news_pic {
+	height: 80px;
+	margin-top: 3px;
+}
+
+
+/*recommend部分*/
+.recommend {
+	height: 180px;
+	/*background-color: darkgrey;*/
+	margin-top: 15px;
+}
+.t_rmd {
+	float: left;
+	background-color: gray;
+	height: 125px;
+	width: 196px;
+	text-align: center;
+	/*line-height: 210px;*/
+	padding-top: 50px;
+}
+.t_rmd h2 {
+	margin-top:18px ;
+	color: white;
+}
+
+.rcm_items {
+	float: left;
+	height: 180px;
+	/*width: 250px;*/
+	background-color: #ebebeb;
+}
+.rcm_items li {
+	float: left;
+	height: 180px;
+	width: 250px;
+	margin-top: 18px;
+	/*border-right: 1px solid gray;*/
+}
+.rcm_items img {
+	border-left: 1px solid darkgray;
+}

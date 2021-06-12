@@ -29,6 +29,7 @@ import sun.reflect.generics.tree.VoidDescriptor;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.Valid;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -145,7 +146,7 @@ public class UserService {
      * @return token用户凭证
      */
     @Transactional
-    public String login(HttpServletRequest request, HttpServletResponse response, LoginVo loginVo) {
+    public String login(HttpServletRequest request, HttpServletResponse response, @Valid LoginVo loginVo) {
         if(loginVo == null) {
             throw new GlobalException(CodeMsg.ACCESS_FAULT);
         }
@@ -416,7 +417,6 @@ public class UserService {
         file.transferTo(newFile);
         return fileName;
     }
-
     /**
      * 提交商品的图片
      * @param user

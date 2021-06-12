@@ -35,6 +35,7 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addResourceHandler("/upload/**").addResourceLocations("file:D:\\IdeaProject\\2019\\miaosha_lzy\\src\\main\\resources\\static\\upload\\");
         registry.addResourceHandler("/img/**").addResourceLocations("file:D:\\IdeaProject\\2019\\miaosha_lzy\\src\\main\\resources\\static\\img\\");
         registry.addResourceHandler("/img/goods/**").addResourceLocations("file:D:\\IdeaProject\\2019\\miaosha_lzy\\src\\main\\resources\\static\\img\\goods\\");
+        registry.addResourceHandler("/lyh/images/**").addResourceLocations("D:\\IdeaProject\\2019\\miaosha_lzy\\src\\main\\resources\\static\\lyh\\images\\");
     }
     @Bean
     MultipartConfigElement multipartConfigElement() {

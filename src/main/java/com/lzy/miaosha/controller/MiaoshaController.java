@@ -3,10 +3,7 @@ package com.lzy.miaosha.controller;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.lzy.miaosha.domain.Goods;
-import com.lzy.miaosha.domain.MiaoshaOrder;
-import com.lzy.miaosha.domain.OrderInfo;
-import com.lzy.miaosha.domain.User;
+import com.lzy.miaosha.domain.*;
 //import com.lzy.miaosha.rabbitmq.MQSender;
 //import com.lzy.miaosha.rabbitmq.MiaoshaMessage;
 import com.lzy.miaosha.redis.RedisService;
@@ -15,17 +12,18 @@ import com.lzy.miaosha.redis.keys.MiaoshaKey;
 import com.lzy.miaosha.redis.keys.OrderKey;
 import com.lzy.miaosha.result.CodeMsg;
 import com.lzy.miaosha.result.Result;
-import com.lzy.miaosha.service.GoodsService;
-import com.lzy.miaosha.service.MiaoshaService;
-import com.lzy.miaosha.service.OrderService;
+import com.lzy.miaosha.service.*;
 import com.lzy.miaosha.util.Base64Util;
 import com.lzy.miaosha.util.BaseValidate;
 import com.lzy.miaosha.vo.GoodsVo;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +37,8 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 @Controller
 @RequestMapping("/miaosha")
-public class MiaoshaController implements InitializingBean {
+//implements InitializingBean
+public class MiaoshaController {
 
     @Autowired
     GoodsService goodsService;
@@ -53,6 +52,14 @@ public class MiaoshaController implements InitializingBean {
     @Autowired
     OrderService orderService;
 
+    @Autowired
+    UserService userService;
+
+    @Autowired
+    ShopService shopService;
+
+
+
 //    @Autowired
 //    MQSender sender;
     /**
@@ -63,7 +70,7 @@ public class MiaoshaController implements InitializingBean {
     /**
      * 系统初始化，保存秒杀商品的数量
      * */
-    @Override
+//    @Override
     public void afterPropertiesSet() throws Exception {
         List<GoodsVo> goodsList = goodsService.getGoodsList();
         if(goodsList == null) {
@@ -127,6 +134,7 @@ public class MiaoshaController implements InitializingBean {
      */
     @RequestMapping(value="/{path}/do_miaosha", method=RequestMethod.POST)
     @ResponseBody
+    @Transactional
     public Result<OrderInfo> miaosha(User user,
                                      @RequestParam("goodsId")Integer goodsId,
                                      @PathVariable("path") String path,@RequestParam("addressId") Integer addressId) {
@@ -157,7 +165,11 @@ public class MiaoshaController implements InitializingBean {
         }
         //减库存、下订单、写入秒杀订单
         OrderInfo orderInfo = miaoshaService.miaosha(user,goods,addressId);
-        goodsService.decrMiaoshaGoodsCount(goods,stock);
+        int n = goodsService.decrMiaoshaGoodsCount(goods,stock);
+        //没货了
+        if(n == 0){
+            return Result.error(CodeMsg.GOODS_OVER);
+        }
         goodsService.buyGoods(orderInfo);
         miaoshaService.createMiaoshaOrder(user,goods,orderInfo);
         MiaoshaOrder miaoshaOrder = miaoshaService.getMiaoshaOrderByOrderId( orderInfo.getId());
@@ -184,6 +196,7 @@ public class MiaoshaController implements InitializingBean {
 
     @RequestMapping(value="/insert_goods", method=RequestMethod.POST)
     @ResponseBody
+    @Transactional
     public Result<CodeMsg> insertMiaoShaGoods(@Valid GoodsVo goodsVo) {
         List<Goods> goods = new ArrayList<>(JSONArray.parseArray(goodsVo.getData(),Goods.class));
         Goods good = goods.get(0);
@@ -199,6 +212,14 @@ public class MiaoshaController implements InitializingBean {
         return Result.success(CodeMsg.SUCCESS);
     }
 
+    @RequestMapping(value="/update", method=RequestMethod.POST)
+    @ResponseBody
+    public Result<CodeMsg> updateMiaoShaGoods(@Valid GoodsVo goodsVo) {
+        miaoshaService.updateMiaoShaGoods(goodsVo);
+        return Result.success(CodeMsg.SUCCESS);
+    }
+
+
     /**
      *读取数据库向用户发送商品信息
      * @return 所有商品的信息
@@ -207,6 +228,16 @@ public class MiaoshaController implements InitializingBean {
     @ResponseBody
     public Result<List<GoodsVo>> getGoodsList(){
         List<GoodsVo> goodsVoList = goodsService.getGoodsList();
+        return Result.success(goodsVoList);
+    }
+
+
+    @RequestMapping("/seller/goods")
+    @ResponseBody
+    public Result<List<GoodsVo>> getMiaoshaGoodsByUser(HttpServletRequest request, HttpServletResponse response){
+        User user = userService.getByToken(request,response);
+        Shop shop = shopService.getByUserId(user);
+        List<GoodsVo> goodsVoList = miaoshaService.getMiaoshaGoodsByUser(shop);
         return Result.success(goodsVoList);
     }
 

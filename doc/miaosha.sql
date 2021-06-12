@@ -11,7 +11,7 @@ CREATE TABLE `user` (
   `register_date` datetime DEFAULT NULL COMMENT '注册时间',
   `last_login_date` datetime DEFAULT NULL COMMENT '上次登录时间',
   `login_count` int(11) DEFAULT '0' COMMENT '登录次数',
-   `authority` varchar (255) COMMENT'用户类型1代表用户，2代表商家，3代表被封号,0代表管理员',
+   `authority` varchar (255) NOT NULL COMMENT'用户类型1代表用户，2代表商家，3代表被封号,0代表管理员',
    `reserved_filds2` varchar (255) COMMENT '预留位2',
    `reserved_filds3` varchar (255) COMMENT '预留位3',
   PRIMARY KEY (`id`)
@@ -111,7 +111,7 @@ DROP TABLE IF EXISTS `shop`;
 CREATE TABLE `shop` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '店铺表主键',
 --   一个用户只能申请一次
-  `user_id` bigint(40) NOT NULL unique key COMMENT '用户id',
+  `user_id` bigint(20) NOT NULL unique key COMMENT '用户id',
   `name` varchar(255) NOT NULL COMMENT '店铺名称',
   `info` varchar(255) NOT NULL COMMENT '店铺介绍',
   `authority` char(1) NOT NULL COMMENT '3代表店铺被封了，0代表没有申请过，1代表正在审核，2代表审核通过可以正常经营',
@@ -189,6 +189,19 @@ CREATE TABLE `user_complaint` (
   `order_id` varchar(32) NOT NULL COMMENT '订单表，主键',
   `content` varchar (20) DEFAULT NULL COMMENT '投诉类型',
   `apply_date` datetime DEFAULT NULL COMMENT '订单的创建时间',
+  `phone_number` varchar(15) not null COMMENT '用户手机号',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+
+DROP TABLE IF EXISTS `comment`;
+CREATE TABLE `comment` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '评论主键',
+  `user_id` bigint(20) DEFAULT NULL COMMENT '用户id',
+  `nickname` varchar(255) NOT NULL COMMENT '登录昵称',
+  `order_id` varchar(32) NOT NULL COMMENT '订单表，主键',
+  `content` varchar (65) DEFAULT NULL COMMENT '投诉类型',
+  `create_date` datetime DEFAULT NULL COMMENT '订单的创建时间',
   `phone_number` varchar(15) not null COMMENT '用户手机号',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;

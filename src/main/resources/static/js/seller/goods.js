@@ -59,7 +59,7 @@ function insertGoods() {
 function showGoods() {
     document.getElementById("show").className = "layui-nav-item layui-this";
     $("#content").html("");
-    $("#content").html("<iframe src=\"/manage_goods.html\" scrolling=\"yes\"frameborder=\"0\" width=\"100%\" height=\"100%\"> </iframe>");
+    $("#content").html("<iframe src=\"/manage_map_data.html\" scrolling=\"yes\"frameborder=\"0\" width=\"100%\" height=\"100%\"> </iframe>");
 }
 
 
@@ -72,5 +72,11 @@ function showOrder() {
 function showMiaoSha() {
     document.getElementById("miaosha").className = "layui-nav-item layui-this";
     $("#content").html("");
-    $("#content").html("<iframe src=\"/manage_order.html\" scrolling=\"yes\"frameborder=\"0\" width=\"100%\" height=\"100%\"> </iframe>");
+    $("#content").html("<iframe src=\"/manage_miaosha.html\" scrolling=\"yes\"frameborder=\"0\" width=\"100%\" height=\"100%\"> </iframe>");
+}
+
+function showDel() {
+    document.getElementById("del").className = "layui-nav-item layui-this";
+    $("#content").html("");
+    $("#content").html("<iframe src=\"/del_goods.html\" scrolling=\"yes\"frameborder=\"0\" width=\"100%\" height=\"100%\"> </iframe>");
 }

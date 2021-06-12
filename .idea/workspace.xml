@@ -1,248 +1,419 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java" line="215" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java" line="216" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ff0a51d-27db-42de-9ebe-75f9243423e6" name="Default Changelist" comment="更新配置文件">
-      <change afterPath="$PROJECT_DIR$/doc/SQL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/lyh.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/oldfile/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/oldfile/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/oldfile/css/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/oldfile/css/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/oldfile/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/oldfile/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/oldfile/css/reg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/RootController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/AddressDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/AddressSqlProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsSqlProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/ShopDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Complaint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/OrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/ShopingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/redis/keys/BanKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/RootService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/AddressVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ChangePasswordsVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ComplaintVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/InsertGoodsVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/NormalGoodsVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/OrderVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ShopVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ShopingCartVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/404_ NOT_FOUND.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/add_address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/apply_shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/audit_shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/baned.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/change_pass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/newbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/newindex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/goods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/4080a927ac5306884d70877957e8904801fc96f3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/a48bc2e8904800fc96abbabdd42043715edb93f3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/goods/O1CN01EgUjk71CP14gmImNY_!!0-item_pic.jpg_430x430q90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/goods/O1CN01RItHmb1RG3ds2z2VG_!!2453472083.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/goods/O1CN01gYfAkb26SKRcH64Qe_!!3340527660.jpg_430x430q90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/goods/O1CN01il6DL11cw9qVAwgNb_!!1049653664.jpg_430x430q90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/goods/O1CN01kepYFH1IOumSVEVaQ_!!2616970884.jpg_430x430q90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/goods/O1CN01lvvhTN1RhXRD92AY4_!!2256022143.png_430x430q90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/jian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/insert_goods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/getjs_bdtj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/hm.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/insert_bdtj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/layui.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/root.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/seller/goods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/user/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/user/apply.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/user/changepas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/user/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/manage_goods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/manage_order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/root_apply.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/root_goods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/root_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/root_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/seller_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/shoping_cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/update_id.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/upload/18091623803.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/upload/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/user.html" afterDir="false" />
+    <list default="true" id="0ff0a51d-27db-42de-9ebe-75f9243423e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LyhRootController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LyhUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/LyhMapDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/LyhUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhEvaluate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhMapData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/LyhMapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/LyhUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhEvaluateVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhLoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhMapDataRootVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhRegiseterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhScenic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/PageVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/del_goods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/SyntaxHighlighter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/newbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/newindex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/reg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/images/5d2d23c6d2d94b5c91884f7f7c4cc1ca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/images/map_color.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/images/map_color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/images/map_tip_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/insert_scenic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/agree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/jQuery.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/jquery.svg.pan.zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/lib/SyntaxHighlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/lib/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/md5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/res/chinaMapConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/res/worldMapConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/getjs_bdtj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/hm.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/insert_bdtj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/layui.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/root/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/seller/goods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/svg.draggy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/svg.pan-zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/user/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/user/apply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/user/changepas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/js/user/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/manage_evaluate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/manage_map_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/manage_scenic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/agree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/jQuery.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/md5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/getjs_bdtj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/hm.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/insert_bdtj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/layui.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/root/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/seller/goods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/user/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/user/apply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/user/changepas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/old/js/user/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/root_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/root_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/scenic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/lyh/svgmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/manage_miaosha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/root_complaint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/lyh.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/lyh.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/miaosha.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/miaosha.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/oldfile/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/doc/oldfile/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/接口文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/接口文档.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/GoodsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/MiaoshaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/MiaoshaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/RootController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/RootController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsSqlProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsSqlProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/UserSqlProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/UserSqlProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/MiaoshaGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/MiaoshaGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/MiaoshaOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/MiaoshaOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/rabbitmq/MQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drop/rabbitmq/MQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/rabbitmq/MQReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drop/rabbitmq/MQReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/rabbitmq/MQSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drop/rabbitmq/MQSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/rabbitmq/MiaoshaMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drop/rabbitmq/MiaoshaMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/redis/keys/UserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/redis/keys/UserKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/result/CodeMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/result/CodeMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Complaint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Complaint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/MiaoshaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/MiaoshaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/RootService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/RootService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/util/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/util/SnowFlakeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/util/SnowFlakeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/GoodsDetailVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/GoodsDetailVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/GoodsVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/GoodsVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ComplaintVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ComplaintVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LoginVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/goods_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/goods_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/reg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/reg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/goods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/root/root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/root/root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/seller/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/seller/goods.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/manage_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/manage_goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/root_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/root_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/seller_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/seller_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/goods_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/goods_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/reg.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/reg.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/login/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/login.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -267,48 +438,109 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/scenic.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="322">
+                    <caret line="270" column="39" lean-forward="true" selection-start-line="270" selection-start-column="39" selection-end-line="270" selection-end-column="39" />
+                    <folding>
+                      <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#fieldset#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LyhUserController.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="608">
+                    <caret line="122" column="48" lean-forward="true" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/svgmap.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="33">
+                    <caret line="356" column="4" selection-start-line="356" selection-start-column="4" selection-end-line="368" selection-end-column="5" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/LyhMapDao.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="569">
+                    <caret line="62" column="98" selection-start-line="62" selection-start-column="98" selection-end-line="62" selection-end-column="98" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2113215755">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="121" />
+          <entry key="project.closed" value="159" />
           <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.109" value="1" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.32" value="3" />
-          <entry key="project.open.time.33" value="2" />
-          <entry key="project.open.time.34" value="4" />
-          <entry key="project.open.time.35" value="4" />
+          <entry key="project.open.time.32" value="5" />
+          <entry key="project.open.time.33" value="3" />
+          <entry key="project.open.time.34" value="6" />
+          <entry key="project.open.time.35" value="8" />
           <entry key="project.open.time.354" value="1" />
-          <entry key="project.open.time.36" value="8" />
-          <entry key="project.open.time.37" value="5" />
-          <entry key="project.open.time.38" value="7" />
-          <entry key="project.open.time.39" value="9" />
+          <entry key="project.open.time.36" value="13" />
+          <entry key="project.open.time.37" value="7" />
+          <entry key="project.open.time.38" value="13" />
+          <entry key="project.open.time.39" value="12" />
           <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.40" value="3" />
-          <entry key="project.open.time.41" value="5" />
-          <entry key="project.open.time.42" value="5" />
-          <entry key="project.open.time.43" value="3" />
+          <entry key="project.open.time.40" value="5" />
+          <entry key="project.open.time.41" value="7" />
+          <entry key="project.open.time.42" value="6" />
+          <entry key="project.open.time.43" value="4" />
           <entry key="project.open.time.44" value="7" />
           <entry key="project.open.time.45" value="3" />
-          <entry key="project.open.time.46" value="1" />
-          <entry key="project.open.time.47" value="2" />
+          <entry key="project.open.time.46" value="2" />
+          <entry key="project.open.time.47" value="3" />
           <entry key="project.open.time.48" value="3" />
-          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.52" value="1" />
@@ -321,86 +553,88 @@
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="134" />
+          <entry key="project.opened" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="LoginController" value="1" />
           <entry key="cfm" value="1" />
-          <entry key="class" value="80" />
-          <entry key="css" value="34" />
+          <entry key="class" value="84" />
+          <entry key="css" value="43" />
           <entry key="getjs_bdtj" value="2" />
           <entry key="gif" value="16" />
           <entry key="gitattributes" value="4" />
           <entry key="gitignore" value="6" />
           <entry key="groovy" value="1" />
           <entry key="htm" value="7" />
-          <entry key="html" value="242" />
+          <entry key="html" value="342" />
           <entry key="ico" value="2" />
-          <entry key="java" value="921" />
+          <entry key="java" value="1122" />
           <entry key="jpg" value="35" />
-          <entry key="js" value="160" />
-          <entry key="md" value="29" />
-          <entry key="png" value="26" />
-          <entry key="properties" value="22" />
+          <entry key="js" value="193" />
+          <entry key="md" value="35" />
+          <entry key="png" value="27" />
+          <entry key="properties" value="24" />
           <entry key="rnc" value="2" />
           <entry key="snippet" value="1" />
-          <entry key="sql" value="50" />
+          <entry key="sql" value="57" />
           <entry key="svg" value="1" />
           <entry key="ts" value="2" />
           <entry key="ttf" value="1" />
-          <entry key="xml" value="18" />
+          <entry key="xml" value="19" />
           <entry key="下载" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CFML" value="1" />
-          <entry key="CLASS" value="80" />
-          <entry key="CSS" value="34" />
+          <entry key="CLASS" value="84" />
+          <entry key="CSS" value="43" />
           <entry key="Font" value="1" />
           <entry key="Git file" value="4" />
-          <entry key="HTML" value="249" />
-          <entry key="Image" value="79" />
-          <entry key="JAVA" value="921" />
-          <entry key="JavaScript" value="160" />
-          <entry key="Markdown" value="29" />
+          <entry key="HTML" value="349" />
+          <entry key="Image" value="80" />
+          <entry key="JAVA" value="1122" />
+          <entry key="JavaScript" value="193" />
+          <entry key="Markdown" value="35" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Properties" value="22" />
+          <entry key="Properties" value="24" />
           <entry key="RNG Compact" value="2" />
-          <entry key="SQL" value="50" />
+          <entry key="SQL" value="57" />
           <entry key="SVG" value="1" />
           <entry key="Scratch" value="2" />
           <entry key="TypeScript" value="2" />
-          <entry key="XML" value="18" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="3" />
-          <entry key="dummy" value="8" />
+          <entry key="dummy" value="29" />
           <entry key="htm" value="153" />
-          <entry key="html" value="5087" />
-          <entry key="java" value="26380" />
-          <entry key="js" value="3826" />
+          <entry key="html" value="8465" />
+          <entry key="java" value="32008" />
+          <entry key="js" value="4253" />
           <entry key="md" value="585" />
-          <entry key="properties" value="95" />
-          <entry key="sql" value="1015" />
-          <entry key="txt" value="6" />
+          <entry key="properties" value="107" />
+          <entry key="sql" value="1135" />
+          <entry key="txt" value="20" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="5242" />
-          <entry key="JAVA" value="26380" />
+          <entry key="HTML" value="8620" />
+          <entry key="JAVA" value="32008" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="3824" />
+          <entry key="JavaScript" value="4251" />
           <entry key="Markdown" value="582" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Properties" value="95" />
-          <entry key="SQL" value="1015" />
+          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="Properties" value="107" />
+          <entry key="SQL" value="1135" />
           <entry key="XML" value="20" />
         </counts>
       </usages-collector>
@@ -432,71 +666,41 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49828961">
+    <splitter split-orientation="horizontal" split-proportion="0.5014006">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/root_user.html">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/insert_scenic.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-850">
-                  <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+                <state relative-caret-position="180">
+                  <caret line="128" column="35" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="422" column="18" lean-forward="true" selection-start-line="422" selection-start-column="18" selection-end-line="422" selection-end-column="18" />
+                <state relative-caret-position="414">
+                  <caret line="115" column="9" lean-forward="true" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Goods.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhEvaluateVo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#437#438#0" expanded="true" />
-                    <element signature="e#482#483#0" expanded="true" />
-                    <element signature="e#518#519#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="231">
+                  <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/root_index.html">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/config/WebConfig.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="250">
-                  <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-                  <folding>
-                    <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/root/root.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="445">
-                  <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/root_goods.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="875">
+                  <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -504,47 +708,99 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/GoodsService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="754">
-                  <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
+                <state relative-caret-position="575">
+                  <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/manage_evaluate.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="186">
+                  <caret line="146" column="38" lean-forward="true" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="38" />
                   <folding>
-                    <element signature="e#764#765#0" expanded="true" />
-                    <element signature="e#807#808#0" expanded="true" />
-                    <element signature="e#2090#2091#0" expanded="true" />
-                    <element signature="e#2137#2138#0" expanded="true" />
-                    <element signature="e#3389#3390#0" expanded="true" />
-                    <element signature="e#3446#3447#0" expanded="true" />
-                    <element signature="e#3691#3692#0" expanded="true" />
-                    <element signature="e#3741#3742#0" expanded="true" />
+                    <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#h2#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhScenic.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#266#267#0" expanded="true" />
+                    <element signature="e#291#292#0" expanded="true" />
+                    <element signature="e#328#329#0" expanded="true" />
+                    <element signature="e#356#357#0" expanded="true" />
+                    <element signature="e#390#391#0" expanded="true" />
+                    <element signature="e#419#420#0" expanded="true" />
+                    <element signature="e#464#465#0" expanded="true" />
+                    <element signature="e#500#501#0" expanded="true" />
+                    <element signature="e#535#536#0" expanded="true" />
+                    <element signature="e#566#567#0" expanded="true" />
+                    <element signature="e#614#615#0" expanded="true" />
+                    <element signature="e#654#655#0" expanded="true" />
+                    <element signature="e#685#686#0" expanded="true" />
+                    <element signature="e#712#713#0" expanded="true" />
+                    <element signature="e#752#753#0" expanded="true" />
+                    <element signature="e#784#785#0" expanded="true" />
+                    <element signature="e#818#819#0" expanded="true" />
+                    <element signature="e#848#849#0" expanded="true" />
+                    <element signature="e#894#895#0" expanded="true" />
+                    <element signature="e#932#933#0" expanded="true" />
+                    <element signature="e#964#965#0" expanded="true" />
+                    <element signature="e#992#993#0" expanded="true" />
+                    <element signature="e#1034#1035#0" expanded="true" />
+                    <element signature="e#1068#1069#0" expanded="true" />
+                    <element signature="e#1098#1099#0" expanded="true" />
+                    <element signature="e#1124#1125#0" expanded="true" />
+                    <element signature="e#1162#1163#0" expanded="true" />
+                    <element signature="e#1192#1193#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsDao.java">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="89">
-                  <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+                <state relative-caret-position="-1071">
+                  <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+                  <folding>
+                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/UserDao.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/LyhMapService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="93">
-                  <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/GoodsController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="314">
-                  <caret line="285" column="125" selection-start-line="285" selection-start-column="93" selection-end-line="285" selection-end-column="125" />
+                <state relative-caret-position="205">
+                  <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#3735#3736#0" expanded="true" />
+                    <element signature="e#3758#3759#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhEvaluate.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1">
+                  <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#261#262#0" expanded="true" />
+                    <element signature="e#292#293#0" expanded="true" />
+                    <element signature="e#340#341#0" expanded="true" />
+                    <element signature="e#380#381#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -555,61 +811,75 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/order.html">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+                <state relative-caret-position="200">
+                  <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/static/insert_goods.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1475">
+                  <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="64" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/LyhUserService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
                   <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1848#1849#0" expanded="true" />
+                    <element signature="e#1898#1899#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/order_detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2196" />
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/RootController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#3865#3866#0" expanded="true" />
-                    <element signature="e#3930#3931#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/doc/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor />
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/OrderVo.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="50">
-                  <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/manage_order.html">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/LyhMapDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="335">
-                  <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="38" />
+                <state relative-caret-position="179">
+                  <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/GoodsController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="394">
+                  <caret line="65" column="105" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="105" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LyhRootController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="194">
+                  <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/static/manage_goods.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="125">
+                  <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                   </folding>
@@ -618,44 +888,14 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/LyhMapService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="500">
-                  <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+                <state relative-caret-position="1025">
+                  <caret line="49" selection-start-line="49" selection-end-line="49" />
                   <folding>
-                    <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1564#1565#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="25">
-                  <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-                  <folding>
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/doc/miaosha.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="625">
-                  <caret line="31" column="9" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/insert_goods.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1225">
-                  <caret line="133" column="48" selection-start-line="133" selection-start-column="48" selection-end-line="133" selection-end-column="48" />
                 </state>
               </provider>
             </entry>
@@ -670,31 +910,18 @@
         <option value="ColdFusion File" />
         <option value="JavaScript File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/user/checkUsername</find>
-      <find>redis</find>
-      <find>apache</find>
-      <find>mysql</find>
-      <find>redisService</find>
-      <find>updateShop</find>
-      <find>shop</find>
-      <find>test3</find>
-      <find>static</find>
-      <find>do_login</find>
-      <find>element</find>
       <find>test</find>
-      <find>updateGoodsImg</find>
       <find>JSON</find>
       <find>json</find>
       <find>show_my_goods</find>
       <find>to_list</find>
-      <find>detail</find>
       <find>userTip</find>
       <find>goodsId</find>
       <find>buy</find>
@@ -702,6 +929,23 @@
       <find>date</find>
       <find>windows</find>
       <find>Date</find>
+      <find>form-data la</find>
+      <find>code img</find>
+      <find>.btn</find>
+      <find>getAll</find>
+      <find>show</find>
+      <find>detail</find>
+      <find>shop</find>
+      <find>&gt;</find>
+      <find>stateInitColor</find>
+      <find>MapColor</find>
+      <find>scroll-up</find>
+      <find>svg</find>
+      <find>content</find>
+      <find>banUser</find>
+      <find>window</find>
+      <find>updateGoods</find>
+      <find>updateGoodsImg</find>
       <find>getAllGoods</find>
     </findStrings>
   </component>
@@ -732,57 +976,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/config/UploadConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/register.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/result/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/login/login.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/NormalGoodsVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/ShopingCart.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/user/changepas.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/OrderInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/matchOwner.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ShopingCartVo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/goods.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/user/user.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/user.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/OrderVo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/shoping_cart.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/seller/goods.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/insert_goods.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/insert_miaosha_goods.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/seller_index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/result/CodeMsg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/MiaoshaGoods.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/manage_goods.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/GoodsVo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/GoodsDetailVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/MiaoshaOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/MiaoshaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/MiaoshaController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/goods_detail.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/UserSqlProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ComplaintVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Complaint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/order.html" />
-        <option value="$PROJECT_DIR$/doc/miaosha.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Goods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsSqlProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/GoodsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/RootController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/manage_order.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/root_goods.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/root_index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/root/root.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/doc/miaosha.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/lyh/vo/LoginVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyh/domain/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyh/vo/RegiseterVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyh/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyh/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyh/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/MiaoshaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyh/dao/LyhUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyh/domain/LyhUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lyh/controller/LyhUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/register.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhLoginVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/lyhcity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/Lyhcity.java" />
+        <option value="$PROJECT_DIR$/doc/lyh.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/root_user.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/manage_goods.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/manage_goods.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhMapData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhMapDataRootVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhMap.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/js/script.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhScenic.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/manage_scenic.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/insert_scenic.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/LyhUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/root_index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/LyhUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/manage_evaluate.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LyhRootController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhEvaluate.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/manage_map_data.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhEvaluateVo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/scenic.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/svgmap.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/LyhMapService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LyhUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhEvaluate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/LyhMapDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lyh/scenic.html" />
       </list>
     </option>
   </component>
@@ -815,11 +1059,11 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="2580" />
-    <option name="height" value="1410" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-285" />
+    <option name="y" value="-9" />
+    <option name="width" value="2020" />
+    <option name="height" value="1095" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -850,7 +1094,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -932,33 +1175,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miaosha_lzy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miaosha_lzy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miaosha_lzy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miaosha_lzy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miaosha_lzy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miaosha_lzy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -968,7 +1184,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miaosha_lzy" type="b2602c69:ProjectViewProjectNode" />
@@ -976,8 +1192,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="lyh" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miaosha_lzy" type="b2602c69:ProjectViewProjectNode" />
@@ -998,12 +1213,31 @@
               <item name="miaosha_lzy" type="b2602c69:ProjectViewProjectNode" />
               <item name="miaosha_lzy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="lyh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha_lzy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miaosha_lzy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha_lzy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miaosha_lzy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1020,7 +1254,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/pom.xml" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620234708051" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623524957596" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1028,15 +1262,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27011493" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\lyh" />
       <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static" />
+      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\lyh\old\js" />
+      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\lyh\js" />
       <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\js\seller" />
-      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\img\goods" />
-      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\js" />
-      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\img" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lzy.miaosha.vo" />
@@ -1044,11 +1279,11 @@
       <recent name="com.lzy.miaosha.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\lyh\images" />
+      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\lyh\old\js" />
+      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\lyh" />
       <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static" />
-      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\upload" />
-      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\js\root" />
-      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\js" />
-      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\js\layer" />
+      <recent name="D:\IdeaProject\2019\miaosha_lzy\src\main\resources\static\lyh\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1064,6 +1299,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MainAppliacation">
+    <configuration name="Lyhcity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzy.miaosha.vo.Lyhcity" />
+      <module name="miaosha_lzy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzy.miaosha.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzy.miaosha.util.MD5Util" />
       <module name="miaosha_lzy" />
@@ -1077,12 +1325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzy.miaosha.vo.Main3" />
+    <configuration name="PageVo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzy.miaosha.vo.PageVo" />
       <module name="miaosha_lzy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzy.miaosha.vo.*" />
+          <option name="PATTERN" value="com.lzy.miaosha.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1096,19 +1344,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lzy.miaosha.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserSqlProvider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzy.miaosha.dao.UserSqlProvider" />
-      <module name="miaosha_lzy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzy.miaosha.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1130,19 +1365,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main3" />
       <item itemvalue="Spring Boot.MainAppliacation" />
       <item itemvalue="Application.MD5Util" />
-      <item itemvalue="Application.UserSqlProvider" />
       <item itemvalue="Application.RootController" />
+      <item itemvalue="Application.PageVo" />
+      <item itemvalue="Application.Lyhcity" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MainAppliacation" />
-        <item itemvalue="Application.RootController" />
-        <item itemvalue="Application.UserSqlProvider" />
+        <item itemvalue="Application.Lyhcity" />
         <item itemvalue="Application.MD5Util" />
-        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.PageVo" />
+        <item itemvalue="Application.RootController" />
       </list>
     </recent_temporary>
   </component>
@@ -1293,7 +1528,48 @@
       <workItem from="1620368951776" duration="7437000" />
       <workItem from="1620394311118" duration="475000" />
       <workItem from="1620408418682" duration="3671000" />
-      <workItem from="1620488979456" duration="6151000" />
+      <workItem from="1620488979456" duration="8291000" />
+      <workItem from="1620760883345" duration="1272000" />
+      <workItem from="1620838415868" duration="4192000" />
+      <workItem from="1621354729187" duration="793000" />
+      <workItem from="1621357580192" duration="1079000" />
+      <workItem from="1621523296525" duration="597000" />
+      <workItem from="1621610841600" duration="8562000" />
+      <workItem from="1621667182783" duration="7992000" />
+      <workItem from="1621754114170" duration="8740000" />
+      <workItem from="1621785916470" duration="8424000" />
+      <workItem from="1621852867910" duration="2557000" />
+      <workItem from="1621872350402" duration="5757000" />
+      <workItem from="1621915118950" duration="2009000" />
+      <workItem from="1621955009275" duration="2311000" />
+      <workItem from="1622135435774" duration="842000" />
+      <workItem from="1622291914860" duration="1794000" />
+      <workItem from="1622309109777" duration="5476000" />
+      <workItem from="1622315393757" duration="252000" />
+      <workItem from="1622395142199" duration="5987000" />
+      <workItem from="1622445382496" duration="2087000" />
+      <workItem from="1622475350596" duration="6873000" />
+      <workItem from="1622568767359" duration="679000" />
+      <workItem from="1622652748007" duration="8157000" />
+      <workItem from="1622741518823" duration="3139000" />
+      <workItem from="1622807314633" duration="5511000" />
+      <workItem from="1622825276190" duration="10117000" />
+      <workItem from="1622885283898" duration="8500000" />
+      <workItem from="1622897222852" duration="214000" />
+      <workItem from="1622906936067" duration="11974000" />
+      <workItem from="1622991355451" duration="11414000" />
+      <workItem from="1623052535911" duration="2017000" />
+      <workItem from="1623081560908" duration="5920000" />
+      <workItem from="1623163101762" duration="461000" />
+      <workItem from="1623166950936" duration="4373000" />
+      <workItem from="1623172604170" duration="5329000" />
+      <workItem from="1623239524794" duration="11221000" />
+      <workItem from="1623314509383" duration="659000" />
+      <workItem from="1623326121411" duration="2185000" />
+      <workItem from="1623341286877" duration="5978000" />
+      <workItem from="1623427750086" duration="591000" />
+      <workItem from="1623433381384" duration="6589000" />
+      <workItem from="1623515962698" duration="6176000" />
     </task>
     <task id="LOCAL-00001" summary="更新配置文件">
       <created>1594390223043</created>
@@ -1302,11 +1578,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594390223043</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成大部分功能，线上备份">
+      <created>1620495354692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620495354692</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="589948000" />
+    <option name="totallyTimeSpent" value="780888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1318,10 +1601,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2064" height="1128" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68164796" visible="true" weight="0.14805584" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68164796" visible="true" weight="0.269437" />
       <window_info id="Structure" order="1" sideWeight="0.31835207" side_tool="true" weight="0.1625964" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -1330,18 +1613,18 @@
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" sideWeight="0.25406033" side_tool="true" weight="0.32998747" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49686325" weight="0.32918552" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68962073" visible="true" weight="0.35843372" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5998004" weight="0.4889336" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463806" weight="0.32749325" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68029493" visible="true" weight="0.33286119" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.597185" weight="0.46458924" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49846783" weight="0.3326572" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.31037924" side_tool="true" weight="0.3993964" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49463806" weight="0.2592068" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49846783" weight="0.33144477" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3197051" side_tool="true" visible="true" weight="0.33286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49463806" weight="0.25637394" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49865952" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4261477" weight="0.29275653" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.42426273" weight="0.2884097" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.49731904" weight="0.22237961" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.498004" weight="0.31488934" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.498004" weight="0.31444758" />
       <window_info anchor="bottom" id="JProfiler" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1353,47 +1636,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32890704" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32841823" />
       <window_info anchor="right" id="PlantUML" order="10" weight="0.3297587" />
       <window_info anchor="right" id="SciView" order="11" weight="0.3297587" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68164796" visible="true" weight="0.22804391" />
-      <window_info id="Structure" order="1" sideWeight="0.31835207" side_tool="true" weight="0.1625964" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Image Layers" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.25406033" side_tool="true" weight="0.32998747" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49686325" weight="0.32918552" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68962073" visible="true" weight="0.3993964" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5998004" weight="0.4889336" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49846783" weight="0.3326572" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.31037924" side_tool="true" visible="true" weight="0.3993964" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49463806" weight="0.2592068" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49865952" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4261477" weight="0.29275653" />
-      <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.49731904" weight="0.22237961" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.498004" weight="0.31488934" />
-      <window_info anchor="bottom" id="JProfiler" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32908848" />
-      <window_info anchor="right" id="Database" order="5" weight="0.18230563" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32890704" />
-      <window_info anchor="right" id="PlantUML" order="10" weight="0.3297587" />
-      <window_info anchor="right" id="SciView" order="11" weight="0.3297587" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1442,16 +1688,23 @@
       <path value="$PROJECT_DIR$/miaosha_lzy" />
     </ignored-roots>
     <MESSAGE value="更新配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新配置文件" />
+    <MESSAGE value="完成大部分功能，线上备份" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成大部分功能，线上备份" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java</url>
-          <line>369</line>
+          <line>370</line>
           <properties />
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/GoodsController.java</url>
+          <line>352</line>
+          <properties />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1469,270 +1722,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/user/user.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/js/seller/goods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2525">
-          <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+        <state relative-caret-position="-750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhMapData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ChangePasswordsVo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="-1125">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/result/CodeMsg.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/js/map.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/js/jquery.svg.pan.zoom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="9175">
+          <caret line="457" column="8" selection-start-line="457" selection-start-column="8" selection-end-line="457" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/user/apply.js">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="40750">
+          <caret line="1697" selection-start-line="1697" selection-end-line="1697" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/InsertGoodsVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/seller_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/apply_shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/MiaoshaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/seller/goods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/GoodsDetailVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/ShopingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Shop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/GoodsVo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhMapDataRootVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="200">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/OrderInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/old/js/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="-525">
+          <caret line="15" column="10" selection-start-line="6" selection-start-column="1" selection-end-line="21" selection-end-column="120" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="1675">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/RegisterController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/old/js/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="600">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="1350">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/UserSqlProvider.java">
+    <entry file="file://$PROJECT_DIR$/doc/miaosha.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+        <state relative-caret-position="1200">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/OrderService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LoginVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="325">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/MiaoshaController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3250">
-          <caret line="159" column="36" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/UserController.java">
+    <entry file="jar://D:/maven/repository/org/mybatis/mybatis/3.5.3/mybatis-3.5.3.jar!/org/apache/ibatis/binding/MapperProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6675">
-          <caret line="304" column="1" selection-start-line="304" selection-start-column="1" selection-end-line="304" selection-end-column="1" />
+        <state relative-caret-position="116">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/MiaoshaGoods.java">
+    <entry file="file://$PROJECT_DIR$/doc/lyh.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1725">
+          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/ComplaintVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Complaint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/goods_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4300">
-          <caret line="172" column="18" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="134" column="7" lean-forward="true" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#td#1;n#tr#6;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/insert_goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="133" column="48" selection-start-line="133" selection-start-column="48" selection-end-line="133" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/order_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2196" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/NormalGoodsVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/MiaoshaOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/root_user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -1740,174 +1843,297 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsSqlProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="422" column="18" lean-forward="true" selection-start-line="422" selection-start-column="18" selection-end-line="422" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/LyhUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="317">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/goods_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2925" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="276" column="5" lean-forward="true" selection-start-line="276" selection-start-column="5" selection-end-line="276" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/images/5d2d23c6d2d94b5c91884f7f7c4cc1ca.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/root_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9550">
+          <caret line="418" column="5" selection-start-line="418" selection-start-column="5" selection-end-line="418" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/manage_scenic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-872">
+          <caret line="213" column="45" lean-forward="true" selection-start-line="213" selection-start-column="45" selection-end-line="213" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1130">
+          <caret line="328" column="29" selection-start-line="328" selection-start-column="29" selection-end-line="328" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/manage_map_data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6475">
+          <caret line="261" column="71" selection-start-line="261" selection-start-column="71" selection-end-line="261" selection-end-column="71" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#h2#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/miaosha.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="875">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
+        <state relative-caret-position="575">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/insert_goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="64" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/LyhUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#3389#3390#0" expanded="true" />
-            <element signature="e#3446#3447#0" expanded="true" />
-            <element signature="e#3691#3692#0" expanded="true" />
-            <element signature="e#3741#3742#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/GoodsDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhEvaluateVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="231">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="285" column="125" selection-start-line="285" selection-start-column="93" selection-end-line="285" selection-end-column="125" />
+        <state relative-caret-position="394">
+          <caret line="65" column="105" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/insert_scenic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="128" column="35" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="115" column="9" lean-forward="true" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/manage_goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5156">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/manage_evaluate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="146" column="38" lean-forward="true" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#h2#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LyhRootController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/RootController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/dao/LyhMapDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="62" column="98" selection-start-line="62" selection-start-column="98" selection-end-line="62" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/controller/LyhUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="122" column="48" lean-forward="true" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/svgmap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="356" column="4" selection-start-line="356" selection-start-column="4" selection-end-line="368" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/domain/LyhEvaluate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/service/LyhMapService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3735#3736#0" expanded="true" />
+            <element signature="e#3758#3759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/LyhScenic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lyh/scenic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
+          <caret line="270" column="39" lean-forward="true" selection-start-line="270" selection-start-column="39" selection-end-line="270" selection-end-column="39" />
           <folding>
-            <element signature="e#3865#3866#0" expanded="true" />
-            <element signature="e#3930#3931#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#fieldset#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/manage_goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2597">
-          <caret line="118" column="34" lean-forward="true" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzy/miaosha/vo/OrderVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/manage_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/root_goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/root_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/root/root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -41,6 +41,7 @@ function getGoods() {
 }
 
 function getComplaint() {
-    
+    $("#content").html("");
+    $("#content").html("<iframe src=\"/root_complaint.html\" scrolling=\"no\" width=\"100%\" height=\"100%\"> </iframe>");
 }
 

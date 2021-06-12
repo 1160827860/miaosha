@@ -2,6 +2,7 @@ package com.lzy.miaosha.controller;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.lzy.miaosha.domain.Complaint;
 import com.lzy.miaosha.domain.Goods;
 import com.lzy.miaosha.domain.Shop;
 import com.lzy.miaosha.domain.User;
@@ -118,7 +119,7 @@ public class RootController {
     @RequestMapping(value = "/goods")
     @ResponseBody
     public Result<List<Goods>> getAllGoods(){
-        return  Result.success(goodsService.rootGetAllGoodsBy());
+        return  Result.success(goodsService.rootGetAllGoodsByRoot());
     }
 
 
@@ -130,6 +131,13 @@ public class RootController {
         goods.setId(id);
         goodsService.updateGoods(goods);
         return Result.success(CodeMsg.SUCCESS);
+    }
+
+
+    @RequestMapping(value = "/complaint")
+    @ResponseBody
+    public Result<List<Complaint>> getAllComplaint(){
+        return  Result.success(rootService.getAllComplaint());
     }
 
 

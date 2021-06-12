@@ -1,0 +1,170 @@
+/*list页面布局*/
+
+/*nav布局开始*/
+.dropdown .dd {
+	display: none;
+}
+
+.header .miaosha {
+	position: absolute;
+	top: 40px;
+	left: 200px;
+}
+
+.promotion {
+	display: inline-block;
+	float: left;
+	height: 45px;
+	width: 360px;
+	line-height: 45px;
+}
+.promotion li {
+	float: left;
+	width: 120px;
+
+	text-align: center;
+	font-size: 17px;
+
+}
+.promotion li a {
+		font-weight: 600;
+		color: black;
+}
+
+
+.navitems {
+	float: left;
+	margin-left: -20px;
+}
+.navitems li {
+	margin-left: 40px;
+}
+.navitems li a {
+		font-size: 14px;
+		font-weight: 600;
+		font-family: 'icomoon';
+}
+
+
+/*list布局开始*/
+
+.list_header {
+	height: 120px;
+	background: darkcyan;
+}
+
+.list_content {
+	margin-top: 20px;
+	height: 1800px;
+	/*border: 1px solid black;*/
+}
+.listitem {
+	position: relative;
+	float: left;
+	width: 270px;
+	height: 450px;
+	margin-top: 20px;
+	margin: 0 10px;
+}
+
+.list_pic {
+	width: 200px;
+	height: 300px;
+	margin: 10px auto;
+}
+.list_pic img {
+	height: 100%;
+	margin-left: -33px;
+}
+.list_pic img:hover {
+	margin-top: -5px;
+}
+.current_price {
+	font-size: 20px;
+	color: red;
+	font-weight: 600;
+}
+.old_price {
+	font-size: 14px;
+	color: dimgray;
+	font-weight: 400;
+	text-decoration: line-through;
+}
+
+.buy_buttom {
+	position: absolute;
+	width: 270px;
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
+	background-color: #df0021;
+	color: white;
+	font-size: 18px;
+	font-weight: 800;
+	bottom: 0;
+}
+.item_discription {
+	display: -webkit-box;
+	overflow: hidden;
+	padding-right:10px;
+	width: 250px;
+}
+.tag_red {
+	color:red;
+}
+
+.bar {
+	display: inline-block;
+	width: 150px;
+	height: 8px;
+	border-radius: 5px;
+	border: 1px solid #df0021;
+}
+.bar_in {
+	width: 125px;
+	height: 9px;
+	background-color: #df0021;
+	border-radius: 5px;
+}
+
+.list_pages {
+	height: 50px;
+	margin-top:60px ;
+	margin-bottom:50px ;
+	line-height: 50px;
+	text-align:center;
+	/*background-color: gray;*/
+}
+
+.page_buttom {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	padding: 10px 15px;
+	border: 1px solid gray;
+	margin: 0 1px;
+	background-color: gainsboro;
+}
+.page_choosed {
+	border: 0;
+	background-color: white;
+}
+
+.page_num {
+	height: 40px;
+	width: 40px;
+	/*line-height: 50px;*/
+	text-align: center;
+	/*padding: 10px 15px;*/
+	border: 1px solid gray;
+	margin: 0 1px;
+	background-color: gainsboro;
+	outline: none;
+}
+.page_num:focus {
+	background-color: pink;
+	border: 1px solid red;
+	height: 45px;
+	width: 50px;
+}
+

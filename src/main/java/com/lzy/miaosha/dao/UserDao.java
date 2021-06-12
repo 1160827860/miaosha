@@ -68,4 +68,7 @@ public interface UserDao {
 
     @Insert("insert into user_complaint(complaint_id,order_id,content,apply_date,phone_number) values(#{complaintId},#{orderId},#{content},#{applyDate},#{phone})")
     void insertComplaint(Complaint complaintVo);
+
+    @Select("select uc.id,uc.order_id as orderId,uc.content,uc.phone_number as phone,uc.apply_date as applyDate, c.content as  complaint from user_complaint uc,complaint as c where uc.complaint_id = c.id")
+    List<Complaint> getAllComplaint();
 }

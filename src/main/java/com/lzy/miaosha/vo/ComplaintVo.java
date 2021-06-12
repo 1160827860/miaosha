@@ -8,6 +8,15 @@ public class ComplaintVo {
     private Integer complaintId;
     private String content;
     private String phone;
+    private String complaint;
+
+    public String getComplaint() {
+        return complaint;
+    }
+
+    public void setComplaint(String complaint) {
+        this.complaint = complaint;
+    }
 
     public String getPhone() {
         return phone;

@@ -7,10 +7,7 @@ import com.lzy.miaosha.domain.OrderInfo;
 import com.lzy.miaosha.domain.Shop;
 import com.lzy.miaosha.domain.User;
 import com.lzy.miaosha.util.UUIDUtil;
-import com.lzy.miaosha.vo.GoodsVo;
-import com.lzy.miaosha.vo.InsertGoodsVo;
-import com.lzy.miaosha.vo.OrderVo;
-import com.lzy.miaosha.vo.ShopingCartVo;
+import com.lzy.miaosha.vo.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -52,6 +49,10 @@ public class GoodsService {
      */
     public List<Goods> showMyGoods(Shop shop){
         return goodsDao.showMyGoods(shop);
+    }
+
+    public List<Goods> showMyDelGoods(Shop shop){
+        return goodsDao.showMyDelGoods(shop);
     }
 
     public void updateGoods(Goods goods){
@@ -129,11 +130,22 @@ public class GoodsService {
      * @param goods
      * @param stock
      */
-    public void decrMiaoshaGoodsCount(Goods goods,Long stock){
-        goodsDao.updateMiaoshaCount(goods.getId(),stock);
+    public int decrMiaoshaGoodsCount(Goods goods,Long stock){
+        return goodsDao.updateMiaoshaCount(goods.getId(),stock);
     }
 
-    public List<Goods> rootGetAllGoodsBy(){
+    public List<Goods> rootGetAllGoodsByRoot(){
        return goodsDao.getAllGoodsByRoot();
+    }
+
+
+    public List<Goods> search(String key,int start,int size) {
+        key = "%"+key+"%";
+        return goodsDao.search(key,start,size);
+    }
+
+    public int count(String key) {
+        key = "%"+key+"%";
+        return goodsDao.count(key);
     }
 }

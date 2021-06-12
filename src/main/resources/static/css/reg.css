@@ -53,7 +53,7 @@ body{
 }
 .form-data .code img{
     width: 120px;
-    position: absolute;
+    /*position: absolute;*/
     right: 0;
     bottom: 2px;
 }
@@ -91,7 +91,7 @@ body{
 }
 .form-data label,.find_password label{
     font-size: 14px;
-    position: absolute;
+    /*position: absolute;*/
     display: inline-block;
     color: #cacaca;
     top: 22px;
@@ -100,7 +100,7 @@ body{
     outline: none;
     border: none;
     z-index: 5;
-    position: absolute;
+    /*position: absolute;*/
     top: 13px;
     width: 340px;
     background-color: transparent;

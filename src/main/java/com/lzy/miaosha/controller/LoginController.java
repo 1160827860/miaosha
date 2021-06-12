@@ -40,6 +40,7 @@ public class LoginController {
     @ResponseBody
     public String getChcekCode(HttpServletRequest request){
         BaseValidate validate = Base64Util.getRandomCode();
+        System.out.println(validate.getValue());
         request.getSession().setAttribute("CHECK_CODE",validate.getValue());
         return "data:image/png;base64,"+validate.getBase64Str();
     }

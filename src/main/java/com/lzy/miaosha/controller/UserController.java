@@ -262,6 +262,7 @@ public class UserController {
         Goods goods = JSON.parseObject(params,Goods.class);
         String goodName =  goods.getGoodsName();
         User user = userService.getByToken(request,response);
+        goods.setStatus(0);
         goodsService.insertGoods(goods,user);
         String fileName = userService.updateGoodsPic(request,response);
         userService.updateGoodsPath(user,fileName,goodName);
@@ -273,6 +274,14 @@ public class UserController {
         User user = userService.getByToken(request,response);
         Shop shop = shopService.getByUserId(user);
         return Result.success(goodsService.showMyGoods(shop));
+    }
+
+    @RequestMapping("/show_del_goods")
+    @ResponseBody
+    public Result<List<Goods>> showMyDelGoods(HttpServletRequest request, HttpServletResponse response) {
+        User user = userService.getByToken(request,response);
+        Shop shop = shopService.getByUserId(user);
+        return Result.success(goodsService.showMyDelGoods(shop));
     }
 
     @RequestMapping(value = "/update_goods")

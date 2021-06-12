@@ -1,6 +1,7 @@
 package com.lzy.miaosha.service;
 
 import com.lzy.miaosha.dao.UserDao;
+import com.lzy.miaosha.domain.Complaint;
 import com.lzy.miaosha.domain.Shop;
 import com.lzy.miaosha.domain.User;
 import org.slf4j.Logger;
@@ -60,5 +61,9 @@ public class RootService {
         shop.setId(id);
         shop.setAuthority("3");
         userDao.updateShopById(shop);
+    }
+
+    public List<Complaint> getAllComplaint() {
+        return userDao.getAllComplaint();
     }
 }

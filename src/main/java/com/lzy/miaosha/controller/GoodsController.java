@@ -23,7 +23,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.sql.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Description 商品模块控制层
@@ -43,6 +45,9 @@ public class GoodsController {
 
     @Autowired
     UserService userService;
+
+
+    private int size=8;							//每页多少条数据
 
 
 
@@ -324,4 +329,29 @@ public class GoodsController {
         goodsService.changeGoodsStaus(5,id);
         return Result.success(CodeMsg.SUCCESS);
     }
+
+    @RequestMapping("/search/{params}")
+    @ResponseBody
+    public Result<PageVo> search(@PathVariable("params")String key){
+        int curPage = 1;
+        PageVo res = new PageVo();
+        List<Goods> goodsList = goodsService.search(key,curPage - 1,size);
+        res.setGoodsList(goodsList);
+        res.setCurPage(curPage);
+        int totalRecord = goodsService.count(key);
+        int count = (totalRecord+size-1)/size;
+        res.setCount(count);
+        return Result.success(res);
+    }
+    @RequestMapping("/search/next/{key}/{page}")
+    @ResponseBody
+    public Result<PageVo> search(@PathVariable("key")String key,@PathVariable("page")int page){
+        int curPage = page + 1;
+        PageVo res = new PageVo();
+        List<Goods> goodsList = goodsService.search(key,(curPage - 1)*size,size);
+        res.setGoodsList(goodsList);
+        res.setCurPage(curPage );
+        return Result.success(res);
+    }
+
 }

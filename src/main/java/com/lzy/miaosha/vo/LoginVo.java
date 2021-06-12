@@ -47,7 +47,7 @@ public class LoginVo {
 
     @Override
     public String toString() {
-        return "LoginVo{" +
+        return "LyhLoginVo{" +
                 "phone_number='" + phone_number + '\'' +
                 ", passWords='" + passWords + '\''+  "登陆时间"+new Date();
     }

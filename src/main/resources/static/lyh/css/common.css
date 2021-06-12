@@ -1,0 +1,298 @@
+/*公共样式*/
+
+.fl{
+	float:left;
+}
+
+.fr {
+	float:right;
+}
+
+.w {
+	width:1200px;
+	margin:0 auto;
+}
+
+		
+.shortcut {
+	height: 30px;
+	line-height: 30px;
+	background-color: #F1F1F1;
+}
+			
+.shortcut li{
+	float: left;
+}
+
+.style-red {
+	color:red;
+}
+
+.spacer {
+	width: 1px;
+	height: 12px;
+	margin: 0 12px;
+}	
+
+
+@font-face {
+			/*1. 这个字体名称要注意 icomoon*/
+		  font-family: 'icomoon';
+		  /*2. 一定要注意路径的问题*/
+		  src:  url('../fonts/icomoon.eot?7kkyc2');
+		  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+		    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+		    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+		    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+}
+
+.icomoon {
+	font-family:'icomoon';
+	font-size: 17px;
+	line-height: 24px;
+}
+
+.header {
+	/*background-color: greenyellow;*/
+	height: 100px;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	width: 175px;
+	height: 56px;
+	/*background-color: purple;*/
+	top:20px;
+	left: 0;	
+}
+.logo a{
+	display: block;
+	width: 175px;
+	height: 56px;
+	background: url(../img/logo.png) no-repeat;
+	/*font-size: 0;*/
+	text-indent: -999em;
+	overflow: hidden;
+}
+
+.search {
+	position: absolute;
+	top: 20px;
+	left: 350px;
+}
+.text {
+	float: left;
+	width: 400px;
+	height: 40px;
+	padding-left: 10px;
+	border: 2px solid #C81623;
+	color: #555555;
+}
+
+.btn {
+	float: left;
+	width: 80px;
+	height: 44px;
+	background-color: #C81623;
+	border: 0;
+	font-size: 15px;
+	color: #fff;
+}
+
+.hotword {
+	position: absolute;
+	top: 65px;
+	left: 350px;
+}
+.hotword a {
+	margin: 0 5px;
+}
+
+.shopcar {
+	position: absolute;
+	float: right;
+	width: 140px;
+	height: 40px;
+	top: 30px;
+	right: 70px;
+	background-color: #f7f7f7;
+	/*border: 1px solid gray;*/
+	font-size: 13px;
+	line-height: 40px;
+}
+
+.car, .arrow {
+		font-family:'icomoon';
+		font-size: 13px;
+		margin: 0 4px;
+		color: red;
+}
+.count {
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	height: 14px;
+	background-color: red;
+	line-height: 14px;
+	border-radius:4px 4px 4px 0;
+	font-size: 10px;
+}
+
+.nav {
+	height: 45px;
+	border-bottom: 2px solid red;
+}
+.dropdown {
+	width: 209px;
+	height: 45px;
+}
+.dropdown .dt {
+	height: 100%;
+	background-color: #B1191A;
+	line-height: 45px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+.dropdown .dd {
+	height: 465px;
+	background-color: #c81623;
+	margin-top:2px ;
+}
+.menu_item {
+	height: 31px;
+	line-height: 31px;
+	/*margin-left: 5px;*/
+}
+
+.menu_item:hover {
+	background-color: ghostwhite;
+}
+.menu_item:hover a {
+	color: #C81623;
+}
+.menu_item a {
+	font-size: 14px;
+	color: white;
+	padding:0 10px;
+}
+.menu_item i {
+	font-family: 'icomoon';
+	float: right;
+	margin-right: 5px;
+	font-size: 14px;
+	color: white;
+}
+
+.navitems {
+	margin-left: 10px;
+	height: 45px;
+	line-height: 45px;
+}
+.navitems li {
+	float: left;
+	margin-left: 45px;
+}
+.navitems a {
+	font-size: 15px;
+	
+}
+
+/*footer部分*/
+
+.footer {
+	height: 400px;
+	padding-top: 30px;
+	background-color: #F1F1F1;
+}
+
+.foot_service {
+	height: 100px;
+	border-bottom: 1px solid gray;
+}
+.fs_items {
+	float: left;
+	height: 70px;
+	width: 200px;
+	margin-left: 30px;
+}
+.fi_icon {
+	float: left;
+	height: 53px;
+	width: 55px;
+	background: url(../img/icons.png) no-repeat;
+}
+.fp1 {
+	background-position: -250px 0px;
+}
+.fp2 {
+	background-position: -250px -52px;
+}
+.fp3 {
+	background-position: -251px -104px;
+}
+.fp4 {
+	background-position: -253px -155px;
+}
+.fp5 {
+	background-position: -254px -103px;
+}
+.fs_text {
+	float: left;
+	padding-top:5px;	
+}
+.fs_text h5 {
+	margin: 8px 0;
+}
+
+.foot_help {
+	height: 170px;
+	border-bottom: 1px solid gray;
+}
+.h_items {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.h_items li {
+	margin: 2px 0;
+	font-size: 12px;
+}
+.h_icon {
+	float: right;
+	height: 150px;
+	width: 150px;
+	margin-right: 50px;
+	margin-top: 20px;
+	text-align: center;
+	/*background-color: blue;*/
+}
+.h_app {
+	margin: 5px 0;
+	/*padding-left: 20px;*/
+	height: 100px;
+	width: 150px;
+	background: url(../upload/erweima.png) no-repeat;
+	background-position:25px 0 ;
+}
+
+.foot_copyright {
+	padding: 20px 0;
+}
+
+.fc_inner {
+	padding: 5px 100px;
+	/*background-color: royalblue;*/
+}
+.fc_inner p {
+	text-align: center;
+}
+.fc_items {
+	padding: 0 5px;
+	border-right: 1px solid gray;
+}

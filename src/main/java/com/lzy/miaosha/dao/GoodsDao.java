@@ -12,7 +12,7 @@ import java.util.List;
 @Mapper
 public interface GoodsDao {
 
-    @Select("select g.*,mg.stock_count, mg.start_date, mg.end_date,mg.miaosha_price from miaosha_goods mg left join goods g on mg.goods_id = g.id")
+    @Select("select g.*,mg.stock_count, mg.start_date, mg.end_date,mg.miaosha_price from miaosha_goods mg left join goods g on mg.goods_id = g.id ")
     List<GoodsVo> listGoods();
 
     @Select("select g.*,mg.stock_count, mg.start_date, mg.end_date,mg.miaosha_price from miaosha_goods mg left join goods g on mg.goods_id = g.id where g.id = #{goodsId}")
@@ -27,8 +27,13 @@ public interface GoodsDao {
     @UpdateProvider(type = GoodsSqlProvider.class,method = "updateGoodsByIdAndName")
     void updateGoodsByIdAndName(Goods goods);
 
-    @Select("select * from goods where  shop_id=#{id}")
+    @Select("select * from goods where  shop_id=#{id} and status != 1 ")
     List<Goods> showMyGoods(Shop shop);
+
+
+    @Select("select * from goods where  shop_id=#{id} and status = 1 ")
+    List<Goods> showMyDelGoods(Shop shop);
+
     //方法废弃，已经改为软删除
     @Delete("delete from goods where id=#{id}")
     void delGoods(int id);
@@ -77,6 +82,19 @@ public interface GoodsDao {
 
     @Select("select * from miaosha_order where order_id = #{orderId}")
     MiaoshaOrder getMiaoshaOrderByOrderId(@Param("orderId")String orderId);
-    @Update("update miaosha_goods  set stock_count = #{stock} where goods_id = #{id}" )
-    void updateMiaoshaCount(@Param("id")Integer id,@Param("stock")Long stock);
+
+    @Update("update miaosha_goods  set stock_count = #{stock} where goods_id = #{id} and stock_count > 0" )
+    int updateMiaoshaCount(@Param("id")Integer id,@Param("stock")Long stock);
+
+    @Select("select g.*,mg.stock_count, mg.start_date as startDate , mg.end_date as endDate,mg.miaosha_price from miaosha_goods mg left join goods g on mg.goods_id = g.id where shop_id = #{shopId} and status != 1")
+    List<GoodsVo> getMiaoshaGoodsByUser(@Param("shopId")Integer shopId);
+
+    @UpdateProvider(type = GoodsSqlProvider.class,method = "updateMiaoshaGoods")
+    void updateMiaoshaGoods(GoodsVo goods);
+
+    @Select("select * from goods where goods_title like #{key} and status != 1 limit #{start},#{size} ")
+    List<Goods> search(@Param("key")String key, @Param("start")int start, @Param("size")int size);
+
+    @Select("select count(1) from goods where goods_title like #{key} and status != 1 ")
+    int count(@Param("key")String key);
 }
